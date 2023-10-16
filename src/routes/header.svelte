@@ -27,7 +27,7 @@
 
 <header>
 	<nav class="flex flex-col md:grid md:grid-cols-3 py-6 px-8 md:py-8 justify-between">
-		<hgroup class="flex w-full justify-between md:items-center md:col-span-1">
+		<hgroup class="flex w-full justify-between md:justify-start md:items-center md:col-span-1">
 			<div class="w-32">
 				<a href="/"><img src={OrbitasLogo} alt="Orbitas Logo" /></a>
 			</div>
@@ -63,7 +63,7 @@
 				<a href="#services">servicios</a>
 			</li>
 		</ul>
-		<div class="hidden md:flex py-4 md:px-6 hover:text-gray-300 duration-300 md:col-span-1 justify-end" id="contact_mail">
+		<div class="hidden md:flex py-4 md:px-6 group hover:text-gray-300 duration-300 md:col-span-1 justify-end" id="contact_mail">
 			<a class="flex lowercase" href="mailto:contact@orbitascr.com">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
@@ -75,11 +75,11 @@
 					stroke-width="2"
 					stroke-linecap="round"
 					stroke-linejoin="round"
-					class="lucide lucide-mail text-main"
+					class="text-main group-hover:text-gray-300 duration-300"
 					><rect width="20" height="16" x="2" y="4" rx="2" /><path
 						d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
 					/></svg
-				> contact@orbitascr.com
+				>contact@orbitascr.com
 			</a>
 		</div>
 	</nav>

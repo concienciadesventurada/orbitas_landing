@@ -4,7 +4,7 @@
 
 <!-- TODO: Make logic... who gets this contact form? What does the user is
     supposed to enter here? --->
-<div class="flex flex-col mx-auto items-center py-12">
+<div class="w-5/6 flex flex-col mx-auto items-center py-12">
 	<div class="md:flex bg-main text-white p-4 rounded-xl">
 		<p class="py-6 md:p-6">¿Quieres saber un poco más sobre Orbitas?</p>
 		<div class="md:bg-white md:rounded-full md:flex px-2">
