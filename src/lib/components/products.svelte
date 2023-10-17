@@ -14,7 +14,9 @@
 		</p>
 	</hgroup>
 </section>
-<section class="w-5/6 m-auto flex flex-col md:grid md:grid-cols-2 gap-12 lg:w-2/3">
+<section
+	class="w-5/6 m-auto flex flex-col md:grid md:grid-cols-2 gap-12 lg:w-2/3 py-12"
+>
 	{#each products as product}
 		<Product
 			acronym={product.acronym}

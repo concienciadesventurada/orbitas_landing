@@ -12,7 +12,7 @@
 				<input
 					type="POST"
 					class="w-full h-10 rounded-full md:w-auto text-white p-2 md:p-0"
-          placeholder="Contáctanos"
+					placeholder="Contáctanos"
 				/>
 				<button
 					class="block md:inline-flex md:bg-main mx-auto uppercase rounded-full border border-white px-8 py-2 my-4"
@@ -22,4 +22,3 @@
 		</div>
 	</div>
 </div>
-

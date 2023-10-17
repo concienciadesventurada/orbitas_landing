@@ -8,12 +8,12 @@
 		const button = document.querySelector("#menu-button");
 		const menu = document.querySelector("#menu");
 		const li = document.querySelectorAll("#menu li");
-		const contactMail = document.getElementById("contact_mail")
+		const contactMail = document.getElementById("contact_mail");
 
 		button?.addEventListener("click", () => {
 			hidden = !hidden;
 			menu?.classList.toggle("hidden", !hidden);
-      contactMail?.classList.toggle("hidden", !hidden);
+			contactMail?.classList.toggle("hidden", !hidden);
 		});
 
 		li?.forEach((li) => {
@@ -26,8 +26,12 @@
 </script>
 
 <header class="sticky top-0 bg-white">
-	<nav class="flex flex-col md:grid md:grid-cols-3 py-6 px-8 md:py-8 justify-between">
-		<hgroup class="flex w-full justify-between md:justify-start md:items-center md:col-span-1">
+	<nav
+		class="flex flex-col md:grid md:grid-cols-3 py-6 px-8 md:py-8 justify-between"
+	>
+		<hgroup
+			class="flex w-full justify-between md:justify-start md:items-center md:col-span-1"
+		>
 			<div class="w-32">
 				<a href="/"><img src={OrbitasLogo} alt="Orbitas Logo" /></a>
 			</div>
@@ -52,7 +56,10 @@
 				>
 			</button>
 		</hgroup>
-		<ul class="hidden md:flex justify-center capitalize md:col-span-1" id="menu">
+		<ul
+			class="hidden md:flex justify-center capitalize md:col-span-1"
+			id="menu"
+		>
 			<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
 				<a href="#nosotros">nosotros</a>
 			</li>
@@ -63,7 +70,10 @@
 				<a href="#services">servicios</a>
 			</li>
 		</ul>
-		<div class="hidden md:flex py-4 md:px-6 group hover:text-gray-300 duration-300 md:col-span-1 justify-end" id="contact_mail">
+		<div
+			class="hidden md:flex py-4 md:px-6 group hover:text-gray-300 duration-300 md:col-span-1 justify-end"
+			id="contact_mail"
+		>
 			<a class="flex gap-2 lowercase" href="mailto:contact@orbitascr.com">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"

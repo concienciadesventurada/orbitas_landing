@@ -26,9 +26,11 @@
 		</div>
 	</div>
 </section>
-<section class="w-5/6 grid grid-cols-2 lg:grid-cols-4 m-auto gap-12 items-center">
-  <Expertise x={12} area="Expertos" />
-  <Expertise x={30} area="Proyectos" />
-  <Expertise x={10} area="Años de experiencia" />
-  <Expertise x={3} area="Países" />
+<section
+	class="w-5/6 grid grid-cols-2 lg:grid-cols-4 m-auto gap-12 items-center"
+>
+	<Expertise x={12} area="Expertos" />
+	<Expertise x={30} area="Proyectos" />
+	<Expertise x={10} area="Años de experiencia" />
+	<Expertise x={3} area="Países" />
 </section>
