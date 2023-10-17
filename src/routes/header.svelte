@@ -25,7 +25,7 @@
 	});
 </script>
 
-<header>
+<header class="sticky top-0 bg-white">
 	<nav class="flex flex-col md:grid md:grid-cols-3 py-6 px-8 md:py-8 justify-between">
 		<hgroup class="flex w-full justify-between md:justify-start md:items-center md:col-span-1">
 			<div class="w-32">
@@ -64,7 +64,7 @@
 			</li>
 		</ul>
 		<div class="hidden md:flex py-4 md:px-6 group hover:text-gray-300 duration-300 md:col-span-1 justify-end" id="contact_mail">
-			<a class="flex lowercase" href="mailto:contact@orbitascr.com">
+			<a class="flex gap-2 lowercase" href="mailto:contact@orbitascr.com">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="24"
