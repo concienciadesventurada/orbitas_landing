@@ -61,7 +61,7 @@
 			id="menu"
 		>
 			<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
-				<a href="#nosotros">nosotros</a>
+				<a href="#about">nosotros</a>
 			</li>
 			<li class="py-4 md:px-6 hover:text-gray-300 duration-300">
 				<a href="#products">productos</a>

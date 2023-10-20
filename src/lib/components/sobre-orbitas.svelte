@@ -5,6 +5,7 @@
 
 <section
 	class="w-5/6 flex flex-col gap-12 justify-center items-center m-auto text-center py-12"
+	id="about"
 >
 	<hgroup>
 		<h2 class="text-2xl font-bold py-6">Sobre Orbitas</h2>
